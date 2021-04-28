@@ -1,0 +1,20 @@
+{
+  "folders": [
+	{
+		"path": "client"
+	},
+	{
+		"path": "public"
+	},
+	{
+		"path": "script"
+	},
+	{
+		"path": "server"
+	},
+	{
+		"path": "node_modules"
+	}
+],
+  "settings": {}
+}
