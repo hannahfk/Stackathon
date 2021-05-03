@@ -1,6 +1,9 @@
 {
+  "version": "2.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
+    "build": "webpack --mode=development",
+    "build:dev": "npm run build -- --watch --mode=development",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
@@ -8,15 +11,42 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "expo": "~41.0.1",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.0",
+    "compression": "^1.7.3",
+    "cookie-parser": "^1.4.5",
+    "expo": "^41.0.1",
     "expo-status-bar": "~1.0.4",
+    "express": "^4.16.4",
+    "history": "^4.9.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "pg": "^8.5.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-icons": "^4.2.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
-    "react-native-web": "~0.13.12"
+    "react-native-web": "^0.16.1",
+    "react-redux": "^7.0.1",
+    "react-router-dom": "^5.0.0",
+    "react-test-renderer": "^16.4.2",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-logger": "^3.0.6",
+    "redux-mock-store": "^1.5.3",
+    "redux-thunk": "^2.3.0",
+    "sequelize": "^6.3.5",
+    "styled-components": "^5.2.3",
+    "supertest": "^4.0.2",
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.3.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0"
+    "@babel/core": "^7.9.0",
+    "@babel/preset-react": "^7.12.10",
+    "@babel/register": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "path": "^0.12.7"
   },
   "private": true
 }
