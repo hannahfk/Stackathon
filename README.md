@@ -1,1 +1,1 @@
-Stackathon project- 4 days to build
+Stackathon project- 4 days, new tech
